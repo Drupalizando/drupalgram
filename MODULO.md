@@ -1,27 +1,29 @@
-# Módulo 1 — Ambiente de Desenvolvimento
+# Módulo 2 — Arquitetura de Conteúdo: O Post de Foto
 
 ## O que foi construído
 
-- DDEV iniciado e Drupal 10 instalado via Composer
-- Drupal configurado: nome do site, banco de dados, credenciais de admin
-- Drush instalado e funcionando (`drush cr`)
-- Módulos de desenvolvimento habilitados: `devel`, `kint`, `web_profiler`
-- Site acessível em `https://drupalgram.ddev.site`
+- Content type `Photo Post` com campos:
+  - `field_photo` — Image (Media reference)
+  - `field_caption` — Text (plain, long)
+  - `field_hashtags` — Entity reference → Taxonomy (Hashtags)
+  - `field_location` — Text (plain)
+- Form display configurado
+- View modes: Default e Teaser configurados
 
 ## Conceitos Drupal introduzidos
 
-- Estrutura de diretórios `web/`
-- `settings.php` e configuração de ambiente
-- O painel de administração e o Toolbar
+- Nodes, fields e entities
+- Display modes (view modes) e form modes
+- Cardinalidade de campos
 
 ## Exercício
 
-Instale o Drupal e tire um screenshot do seu painel de administração em `/admin`.
+Crie 5 Photo Posts de teste com imagens reais.
 
 ## Próximo módulo
 
 ```bash
-git checkout modulo-02
+git checkout modulo-03
 ```
 
-👉 [Acessar Drupalgram no Hotmart](https://hotmart.com/product/drupalgram)
+👉 [Acessar Drupagram no Hotmart](https://hotmart.com/product/drupagram)
