@@ -1,30 +1,28 @@
-# Módulo 0 — Boas-vindas ao Drupalgram
+# Módulo Bônus — Próximos Passos e Drupreddit
 
-Bem-vindo ao Drupalgram! Este branch é o ponto de partida do curso — o projeto está configurado com DDEV, mas o Drupal ainda não foi instalado. Isso acontece no Módulo 1.
+## O que você construiu
 
-## O que está neste branch
+Parabéns! Você tem agora um clone funcional do Instagram com Drupal:
 
-- Configuração do DDEV (`.ddev/config.yaml`)
-- Definição do projeto Composer (`composer.json`) com todos os módulos contrib que usaremos
-- `.gitignore` padrão para projetos Drupal
+- ✅ Feed de fotos com grid 3×3
+- ✅ Perfis de usuário com avatar e bio
+- ✅ Hashtags navegáveis
+- ✅ Sistema de curtidas
+- ✅ Comentários por post
+- ✅ Tema personalizado com Twig
+- ✅ Site no ar com SSL
 
-## Próximo passo
+## O que vem a seguir — Drupreddit
 
-Abra o Módulo 1 do curso no Hotmart e instale o Drupal:
+No próximo curso da série você vai construir um fórum de votação como o Reddit — posts, upvotes, subforuns e uma API REST. Custom modules, Hooks e muito mais.
 
-```bash
-git checkout modulo-01
-```
+👉 [Ver Drupreddit no Hotmart →](https://hotmart.com/product/drupreddit)
 
-Ou continue no branch atual e siga o Módulo 1 do zero:
+## Comunidade
 
-```bash
-ddev start
-composer install
-ddev drush site-install --account-name=admin --site-name="Drupalgram" -y
-ddev drush uli
-```
+- Discord / Telegram: link no Hotmart
+- GitHub: [github.com/Drupalizando](https://github.com/Drupalizando)
 
-## Curso no Hotmart
+## Precisa de uma equipe Drupal?
 
-👉 [Acessar Drupalgram no Hotmart](https://hotmart.com/product/drupalgram)
+A [Revax](https://revax.net) constrói soluções Drupal enterprise. Entre em contato.
