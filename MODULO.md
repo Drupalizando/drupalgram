@@ -1,28 +1,27 @@
-# Módulo 6 — Views: O Feed de Fotos
+# Módulo 7 — Sistema de Likes com Flag
 
 ## O que foi construído
 
-- View `feed`: página `/feed`, grid de Photo Posts recentes, paginação de 12 itens
-- View `user_feed`: contextual filter por autor (UID), para páginas de perfil
-- View `hashtag_feed`: contextual filter por taxonomy term ID
-- Block display "Recent Posts" para sidebar
-- AJAX load-more pagination
+- Módulo Flag instalado via Composer
+- Flag `like_photo` criado no entity Photo Post
+- Permissões: somente usuários autenticados
+- Like button no teaser com AJAX toggle (sem reload de página)
+- Contagem de curtidas exibida no feed via Views relationship
 
 ## Conceitos Drupal introduzidos
 
-- Views displays (Page, Block, Embed)
-- Relationships e contextual filters
-- Exposed filters
-- Views caching
+- Workflow de módulos contrib (Composer → enable → configure)
+- Flag module flags
+- Views relationships com tabelas customizadas
 
 ## Exercício
 
-Construa uma View personalizada exibindo posts com uma hashtag específica, paginada de 9 em 9.
+Curta 3 posts e verifique que a contagem é atualizada.
 
 ## Próximo módulo
 
 ```bash
-git checkout modulo-07
+git checkout modulo-08
 ```
 
-👉 [Acessar Drupalgram no Hotmart](https://hotmart.com/product/drupalgram)
+👉 [Acessar Drupagram no Hotmart](https://hotmart.com/product/drupagram)
