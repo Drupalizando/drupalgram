@@ -1,26 +1,28 @@
-# Módulo 5 — Taxonomia: Hashtags
+# Módulo 6 — Views: O Feed de Fotos
 
 ## O que foi construído
 
-- Vocabulário `Hashtags` criado com free tagging habilitado
-- Conectado ao content type Photo Post (field_hashtags)
-- Pathauto configurado: padrão `/hashtag/[term:name]`
-- Páginas de hashtag funcionando em `/hashtag/drupal`
+- View `feed`: página `/feed`, grid de Photo Posts recentes, paginação de 12 itens
+- View `user_feed`: contextual filter por autor (UID), para páginas de perfil
+- View `hashtag_feed`: contextual filter por taxonomy term ID
+- Block display "Recent Posts" para sidebar
+- AJAX load-more pagination
 
 ## Conceitos Drupal introduzidos
 
-- Taxonomy vocabularies e terms
-- Entity reference fields
-- Pathauto patterns
+- Views displays (Page, Block, Embed)
+- Relationships e contextual filters
+- Exposed filters
+- Views caching
 
 ## Exercício
 
-Adicione hashtags em 5 posts e navegue até a página de uma hashtag.
+Construa uma View personalizada exibindo posts com uma hashtag específica, paginada de 9 em 9.
 
 ## Próximo módulo
 
 ```bash
-git checkout modulo-06
+git checkout modulo-07
 ```
 
 👉 [Acessar Drupalgram no Hotmart](https://hotmart.com/product/drupalgram)
