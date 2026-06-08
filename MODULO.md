@@ -1,28 +1,28 @@
-# Módulo 12 — Deploy: Colocando no Ar
+# Módulo Bônus — Próximos Passos e Drupreddit
 
-## O que foi construído
+## O que você construiu
 
-- Site Drupalgram deployado em servidor real (DigitalOcean Droplet / Ubuntu 22.04)
-- LAMP stack configurado: Nginx, PHP 8.3, MariaDB
-- Arquivos sincronizados via rsync, banco importado via `drush sql-dump`
-- SSL configurado com Let's Encrypt (Certbot)
-- Config importada em produção (`drush cim -y`)
-- Checklist de produção completo: error logging off, caching on
+Parabéns! Você tem agora um clone funcional do Instagram com Drupal:
 
-## Conceitos Drupal introduzidos
+- ✅ Feed de fotos com grid 3×3
+- ✅ Perfis de usuário com avatar e bio
+- ✅ Hashtags navegáveis
+- ✅ Sistema de curtidas
+- ✅ Comentários por post
+- ✅ Tema personalizado com Twig
+- ✅ Site no ar com SSL
 
-- Production vs. development settings
-- Trusted host patterns
-- File system permissions
+## O que vem a seguir — Drupreddit
 
-## Exercício
+No próximo curso da série você vai construir um fórum de votação como o Reddit — posts, upvotes, subforuns e uma API REST. Custom modules, Hooks e muito mais.
 
-Deploy do seu Drupalgram em uma URL pública — compartilhe no grupo do curso.
+👉 [Ver Drupreddit no Hotmart →](https://hotmart.com/product/drupreddit)
 
-## Próximo módulo
+## Comunidade
 
-```bash
-git checkout modulo-bonus
-```
+- Discord / Telegram: link no Hotmart
+- GitHub: [github.com/Drupalizando](https://github.com/Drupalizando)
 
-👉 [Acessar Drupalgram no Hotmart](https://hotmart.com/product/drupalgram)
+## Precisa de uma equipe Drupal?
+
+A [Revax](https://revax.net) constrói soluções Drupal enterprise. Entre em contato.
