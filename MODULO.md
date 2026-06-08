@@ -1,25 +1,29 @@
-# Módulo 3 — Media e Imagens
+# Módulo 4 — Perfis de Usuário
 
 ## O que foi construído
 
-- Image styles: `drupalgram_thumbnail` (150×150 crop), `drupalgram_feed` (600×600 crop), `drupalgram_full` (1080px scale)
-- Responsive Image styles configurados
-- Media Library habilitada e configurada
+- User entity estendida com campos:
+  - `field_avatar` — Image (Media reference)
+  - `field_bio` — Text (plain, 160 chars)
+  - `field_website` — Link
+  - `field_username_display` — Text (plain)
+- Account form display e User profile view mode configurados
+- 3 contas de usuário de teste criadas
 
 ## Conceitos Drupal introduzidos
 
-- Image styles e effects
-- Responsive images
-- Media entities vs. file entities
+- Entity types: User, Node, Taxonomy Term
+- Field UI no User entity
+- O grid de permissões
 
 ## Exercício
 
-Faça upload de 10 imagens e confirme que as thumbnails renderizam nas dimensões corretas.
+Crie seu próprio perfil com avatar e bio.
 
 ## Próximo módulo
 
 ```bash
-git checkout modulo-04
+git checkout modulo-05
 ```
 
 👉 [Acessar Drupalgram no Hotmart](https://hotmart.com/product/drupalgram)
