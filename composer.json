@@ -1,6 +1,6 @@
 {
-    "name": "drupalizando/drupalgram",
-    "description": "Drupalgram — construindo o Instagram com Drupal. Drupalizando Build Series, Curso 1.",
+    "name": "drupalizando/drupagram",
+    "description": "Drupagram — construindo o Instagram com Drupal. Drupalizando Build Series, Curso 1.",
     "type": "project",
     "license": "MIT",
     "require": {
