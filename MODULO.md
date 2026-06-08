@@ -1,25 +1,26 @@
-# Módulo 10 — Busca e Descoberta
+# Módulo 11 — Performance e Configuração
 
 ## O que foi construído
 
-- Página `/explorar`: grid com todos os posts, ordenados por curtidas (Views sort por Flag count)
-- Exposed filter: busca por palavra-chave na legenda
-- Block de tag cloud (Taxonomy terms via Views)
-- URL limpa `/explorar` via Pathauto
+- Caching habilitado: page cache, dynamic page cache, render cache
+- CSS/JS aggregation habilitado para produção
+- Config management: `config/sync/` com configuração exportada via `drush cex`
+- `settings.local.php` para overrides de desenvolvimento
+- `development.services.yml` com Twig debug habilitado em dev
 
 ## Conceitos Drupal introduzidos
 
-- Views sort por relationship count
-- Tag cloud como Views block
+- Config management workflow
+- Cache tags e cache contexts
 
 ## Exercício
 
-Construa a página `/explorar` com filtro de busca por palavra-chave.
+Exporte a configuração, simule um "deploy" zerando e reimportando via `drush cim`.
 
 ## Próximo módulo
 
 ```bash
-git checkout modulo-11
+git checkout modulo-12
 ```
 
 👉 [Acessar Drupalgram no Hotmart](https://hotmart.com/product/drupalgram)
